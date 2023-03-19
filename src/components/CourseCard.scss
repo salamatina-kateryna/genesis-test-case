@@ -1,0 +1,50 @@
+.card {
+  height: 100%;
+  &__tag {
+    color: #4cbb17;
+    font-weight: bold;
+  }
+
+  &__wrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  &__info {
+    font-size: 12px;
+  }
+
+  &__criterion {
+    opacity: 0.5;
+  }
+
+  &__rating {
+    margin-left: 7px;
+    text-align: left;
+  }
+
+  &__rating-number {
+    font-weight: bold;
+  }
+
+  &__description {
+    text-align: left;
+    font-weight: 700;
+  }
+
+  &__status {
+    font-size: 11px;
+    margin-bottom: 0;
+  }
+
+  &__state {
+    opacity: 0.5;
+  }
+}
+
+.ant-card-head {
+  min-height: 75px;
+  display: flex;
+  align-items: center;
+}

@@ -1,0 +1,19 @@
+.header {
+  background-color: #e2e2e2;
+
+  & table {
+    width: 100%;
+    & td {
+      padding: 0;
+    }
+  }
+}
+
+.ant-page-header-heading-title {
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.ant-page-header {
+  padding: 0 12px;
+}

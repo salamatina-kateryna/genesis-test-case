@@ -1,0 +1,121 @@
+.course {
+  text-align: left;
+  &__title {
+    font-size: 38px;
+    color: #53565a;
+    letter-spacing: 2px;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+
+  &__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+  }
+
+  &__tag {
+    color: #4cbb17;
+    font-weight: bold;
+  }
+
+  &__wrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 17vw;
+  }
+
+  &__wrapper--big-width {
+    width: 25vw;
+  }
+
+  &__info {
+    font-size: 16px;
+    margin: 0;
+  }
+
+  &__criterion {
+    opacity: 0.5;
+  }
+
+  &__rating {
+    margin: 0;
+  }
+
+  &__rating-number {
+    font-weight: bold;
+  }
+
+  &__description {
+    font-size: 16px;
+    font-weight: bold;
+  }
+
+  &__status {
+    font-size: 14px;
+    margin-bottom: 0;
+  }
+
+  &__state {
+    opacity: 0.5;
+  }
+
+  &__list-title {
+    font-size: 28px;
+    color: #53565a;
+    letter-spacing: 2px;
+    margin-top: 60px;
+    text-align: center;
+  }
+
+  &__list {
+    width: 40vw;
+    margin: 0 auto;
+    text-align: left;
+  }
+
+  .video-wrapper {
+    width: 60vw;
+    height: auto;
+  }
+}
+
+.ant-list-item-no-flex {
+  display: flex;
+}
+
+@media (max-width: 940px) {
+  .course {
+    &__container {
+      display: block;
+      text-align: center;
+    }
+
+    &__data {
+      margin-top: 50px;
+    }
+
+    &__wrapper {
+      margin: auto;
+      width: 35vw;
+      min-width: 220px;
+    }
+
+    &__wrapper--big-width {
+      width: 45vw;
+      min-width: 220px;
+    }
+
+    &__video {
+      text-align: left;
+    }
+
+    .video-wrapper {
+      width: 90vw;
+      height: auto;
+      margin: auto;
+    }
+  }
+}
